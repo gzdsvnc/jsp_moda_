@@ -1,0 +1,181 @@
+/* CSS Document */
+
+
+/*----- RESET -----*/
+body { 
+	font: 12px Tahoma; 
+	background-color:#FFF;
+	}
+img {border: none;}
+a {
+	text-decoration: none;
+	color: #185798;
+	}
+table, tr, td, h1, h2, h3, h4, h5, h6, p, pre, ul, li {margin: 0px; padding: 0px; border: none;}
+:focus {outline: none;}
+/*-----------------*/
+
+/* Navbar */
+#nav {
+	background: url(../images/sol-bas.png) repeat-x; 
+	height: 35px;
+	}
+.nav {
+	width: 940px;
+	margin: 0px auto; 
+	padding: 10px; 
+	color: #fff;
+	}
+.nav a {
+	color: #fff; 
+	padding: 2px; 
+	text-shadow: 1px 1px 3px #000;
+	}
+.nav a:hover {
+	background-color:#39C; 
+	padding:2px;
+	}
+#genel {
+	width:960px; 
+	margin:0 auto;
+	}
+
+/* Header */
+#header {
+	background: url(../images/header.jpg); 
+	width: 100%; 
+	height: 200px;
+	}
+.header {
+	width: 960px; 
+	height: 100px; 
+	margin: 0px auto;
+	}
+
+/* Genel */
+/* orta alan */
+#orta {
+	float:left; 
+	width:630px; 
+	margin:10px 7px auto 7px;
+	}
+.res {
+	float:left; 
+	margin-right:10px;
+	}
+.mak {padding:10px;}
+.mak h1 {color:#39C;}
+.mak p {padding:10px;}
+.hak {
+	padding:10px; 
+	font-size:13px; 
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.hak h1 {
+	color:#CC0000; 
+	font-size:20px;
+	}
+.hak p {
+	padding:8px; 
+	text-indent:22px;
+	}
+.tel {
+	background:url(../res/tel.png) no-repeat 11px; 
+	text-indent:38px; font-size:14px;
+	}
+.adres {
+	background:url(../res/adres.png) no-repeat 11px; 
+	text-indent:42px; 
+	font-size:14px; 
+	margin-left:20px;
+	}
+.mail {
+	background:url(../res/mail.png) no-repeat 11px; 
+	text-indent:38px; 
+	font-size:14px; 
+	margin-left:10px;
+	}
+/* sag */
+#sag {
+	float:right; 
+	width:220px; 
+	margin-top:10px;
+	}
+/* baslik*/
+.bas {
+	background: url(../res/bas.jpg); 
+	width:220px; 
+	height:35px;
+	}
+.bass {
+	color:#fff; 
+	font-size:14px; 
+	padding:10px 0 0 10px; 
+	font-weight:bold;
+	}
+.obas {
+	background: url(../res/bas.jpg); 
+	width:630px; 
+	height:35px; 
+	font-weight:bold;
+	}
+.obass {
+	color:#fff; 
+	font-size:14px; 
+	padding:10px 0 0 10px; 
+	font-weight:bold;
+	}
+/*Kategori*/
+#kategori {
+	background-color: #eee; 
+	border-bottom: 3px solid #ddd; 
+	margin-bottom: 10px;
+	}
+	#kategori a {
+	background: url(../images/ok2.png) no-repeat 1px; 
+	display: block; 
+	padding: 5px 20px; 
+	border-bottom: 1px solid #fff; 
+	border-top: 1px solid #ddd; 
+	color: #333333;
+	}
+/*Etiket Bulutu*/
+#uyelerimizeOzel {
+	background-color: #eee; 
+	padding: 12px; 
+	margin-bottom: 10px; 
+	border-bottom: 3px solid #ddd;
+	}
+	#uyelerimizeOzel a {padding: 2px;}
+	#uyelerimizeOzel a:hover {
+	background-color: #185798; 
+	color: #fff;
+	}
+	
+#altAlan {
+	background: url(../images/nav.png); 
+	width: 100%; 
+	height: 65px; 
+	margin-top:1%;
+	}
+.altAlan {
+	width: 940px; 
+	margin: 0px auto; 
+	padding: 20px 10px 0 10px; 
+	color:#000;
+	}
+.altAlan a {
+	padding: 2px 5px; 
+	color:#FFF;
+	}
+.altAlan a:hover {
+	background-color:#39c; 
+	color: #fff;
+	}
+#kForm {
+	width:300px;
+	margin: 120px auto;
+}
+#kForm p:hover {color:blue;}
+
+input:hover {border-color:green;}
